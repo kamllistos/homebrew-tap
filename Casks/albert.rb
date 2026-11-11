@@ -4,11 +4,11 @@ cask "albert" do
 
   on_macos do
     on_arm do
-      sha256 "054dbc9a5151a473d320190c798f67cc660867f095eb8e9818aa76c882237879"
+      sha256 "833311f5aea4ab60267375e19a333525653e9e2692ea0981972346d2584384bf"
       url "https://github.com/kamllistos/albert/releases/download/v#{version}/albert_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c460fa44eca28767a3a87dac180ce23ddf86d4d81a1483ed5fd1ccaaf21c700b"
+      sha256 "4ddfa677c7186b1c9c1b7a9438d1af41cd5757264e76024f1fce684d5467c346"
       url "https://github.com/kamllistos/albert/releases/download/v#{version}/albert_darwin_amd64.tar.gz"
     end
   end
